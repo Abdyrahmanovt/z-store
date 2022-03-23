@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Anko Personal Use';
+  src: url("fonts/AnkoPersonalUse.otf");
+  src: url("fonts/Anko-PersonalUse-Bold.otf");
+  src: url("fonts/Anko-PersonalUse-BoldItalic.otf");
+  src: url("fonts/Anko-PersonalUse-Medium.otf");
+  src: url("fonts/Anko-PersonalUse-MediumItalic.otf");
+  src: url("fonts/Anko-PersonalUse-SemiBold.otf");
+  src: url("fonts/Anko-PersonalUse-SemiBoldItalic.otf");
+  src: url("fonts/AnkoPersonalUse-RegularItalic.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,6 +31,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img{
+    width: 100%;
+  object-fit: contain ;
+}
 .container{
   max-width: 1168px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
 }
