@@ -1,0 +1,31 @@
+.advantage {
+  text-align: center;
+  position: relative;
+  padding: 64px 0;
+  background: #ECECEC;
+}
+.advantage__card {
+  width: 100%;
+  height: 248px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.02);
+  margin: 10px 0;
+  padding: 32px 12px;
+}
+.advantage__card_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #393939;
+  margin: 18px 0 0;
+}
+.advantage__card_desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 175%;
+  text-align: center;
+  color: #979797;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,73 @@
+div {
+  margin: 0;
+}
+
+.card {
+  margin: 8px auto;
+}
+.card__body {
+  width: 100%;
+  background: white;
+  padding: 6px 0 10px 8px;
+}
+.card__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #393939;
+  margin: 6px 0;
+}
+.card__price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #393939;
+}
+.card__size {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7C7C7C;
+  margin: 6px 0 10px;
+}
+.card__size span {
+  margin-left: 4px;
+}
+.card .colors {
+  display: flex;
+}
+.card .colors__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.card .grey {
+  background: #73A39D;
+}
+.card .green {
+  background: #84CC4C;
+}
+.card .purple {
+  background: #B5A8A1;
+}
+.card .brown {
+  background: #AB844A;
+}
+.card .blue {
+  background: #6977F0;
+}
+.card .white {
+  background: #FFFFFF;
+}
+.card .black {
+  background: #141414;
+}
+.card .red {
+  background: #FF0000;
+}
+
+/*# sourceMappingURL=style.css.map */

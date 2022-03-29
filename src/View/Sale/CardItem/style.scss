@@ -1,0 +1,87 @@
+div{
+  margin: 0;
+}
+.card {
+  margin: 8px auto;
+
+  &__body {
+    width: 286px;
+    background: white;
+    padding: 6px 0 10px 8px;
+
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #393939;
+    margin: 6px 0;
+  }
+
+  &__price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #393939;
+  }
+
+  &__size {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7C7C7C;
+    margin: 6px 0 10px;
+
+    span {
+      margin-left: 4px;
+    }
+  }
+
+  .colors {
+    display: flex;
+    &__circle{
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+  }
+
+
+
+  .grey {
+    background: #73A39D;
+  }
+
+  .green {
+    background: #84CC4C;
+  }
+
+  .purple {
+    background: #B5A8A1;
+  }
+
+  .brown {
+    background: #AB844A;
+  }
+
+  .blue {
+    background: #6977F0;
+  }
+
+  .white {
+    background: #FFFFFF;
+  }
+
+  .black {
+    background: #141414;
+  }
+
+  .red {
+    background: #FF0000;
+  }
+}

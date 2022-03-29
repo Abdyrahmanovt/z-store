@@ -1,0 +1,55 @@
+.collectingItem {
+  position: relative;
+  margin: 10px 0;
+
+  &__body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    background: #1D1D1B;
+
+    .collectingItem__subtitle {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      text-align: end;
+    }
+
+    i {
+      margin-left: 15px;
+      color: white;
+    }
+  }
+
+  &__body:hover {
+    background: #fff;
+    transition: .5s;
+
+    .collectingItem__subtitle {
+      color: #1D1D1B;
+      transition: .5s;
+    }
+
+    i {
+      color: black;
+      transition: .5s;
+
+    }
+  }
+  &__title {
+    position: absolute;
+    bottom: 14%;
+    margin: 0 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+}
