@@ -1,0 +1,20 @@
+.help {
+  padding: 11px 0;
+
+  &__img {
+    height: 500px;
+  }
+
+  &__dropdown {
+    position: relative;
+    font-family: 'Monserat', sans-serif;
+
+    select {
+      display: none;
+    }
+  }
+
+  .select-selected {
+    background-color: white;
+  }
+}

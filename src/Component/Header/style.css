@@ -46,6 +46,25 @@
   justify-content: space-between;
   padding: 9px 0;
 }
+.header .arrow-up {
+  position: fixed;
+  top: 60%;
+  right: 8%;
+  z-index: 100;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.header__arrowUp {
+  z-index: 100;
+  background: transparent;
+  border: none;
+}
+.header__chat {
+  background: transparent;
+  border: none;
+}
 .header__logo {
   height: 70px;
 }
@@ -114,6 +133,23 @@
   font-size: 16px;
   line-height: 20px;
   color: #393939;
+}
+
+.header-mobile {
+  margin: 22px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-mobile .mobile_logo {
+  height: 43px;
+  width: 99px;
+}
+.header-mobile .search-btn {
+  background: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

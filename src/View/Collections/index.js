@@ -1,8 +1,6 @@
 import React from 'react';
 import CollectingCard from "../Collecting/CollectingCard";
 import './style.css'
-import {Link} from "react-router-dom";
-import NewCard from "./NewCard";
 
 const Collections = () => {
     return (

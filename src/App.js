@@ -8,6 +8,10 @@ import Collections from "./View/Collections";
 import NotFound from "./View/NotFound";
 import CollectionPage from "./View/CollectionPage";
 import ProductDetails from "./View/ProductDetails";
+import Basket from "./View/Basket";
+import Favorites from "./View/Favorites";
+import Help from "./View/Help";
+import Contract from "./View/Contract";
 
 const App = () => {
     return (
@@ -20,7 +24,11 @@ const App = () => {
                         <Route exact path='/about' element={<About/>}/>
                         <Route exact path='/collections' element={<Collections/>}/>
                         <Route exact path='/collectionsPage' element={<CollectionPage/>}/>
-                        {/*<Route exact path='/productinfo/:id' element={<ProductDetails/>}/>*/}
+                        <Route exact path='/basket' element={<Basket/>}/>
+                        <Route exact path='/help' element={<Help/>}/>
+                        <Route exact path='/contract' element={<Contract/>}/>
+                        <Route exact path='/favorites' element={<Favorites/>}/>
+                        <Route exact path='/productinfo' element={<ProductDetails/>}/>
                         <Route exact path='*' element={<NotFound/>}/>
                     </Routes>
                 </div>

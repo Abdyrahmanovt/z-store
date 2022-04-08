@@ -1,0 +1,18 @@
+.help {
+  padding: 11px 0;
+}
+.help__img {
+  height: 500px;
+}
+.help__dropdown {
+  position: relative;
+  font-family: "Monserat", sans-serif;
+}
+.help__dropdown select {
+  display: none;
+}
+.help .select-selected {
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

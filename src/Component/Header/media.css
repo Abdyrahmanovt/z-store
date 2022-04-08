@@ -1,0 +1,18 @@
+@media (max-width: 1400px) {
+    /* 1025 - 1200*/
+    .header-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /*481 - 768*/
+    .header-navbar {
+        display: none;
+    }
+
+    .header-mobile {
+        display: flex;
+        padding: 9px 0;
+    }
+}

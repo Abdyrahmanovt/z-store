@@ -1,19 +1,20 @@
-import React, { useEffect } from "react";
-
-import "./Loader.css";
+import React from "react";
+import './Loader.css'
 
 function Loader() {
-    // useEffect(() => {
-    //     setTimeout(function () {
-    //         document.querySelector(".wrappLoader").classList.add("loaded");
-    //     }, 500);
-    // });
+
     return (
-        <div className='wrappLoader'>
-            <div id='loader-wrapper'>
-                <div id='loader'></div>
-                <div className='loader-section section-left'></div>
-                <div className='loader-section section-right'></div>
+        <div className='loading'>
+            <div id="ball">
+                <div id="ball1" className="balls"></div>
+                <div id="ball2" className="balls"></div>
+                <div id="ball3" className="balls"></div>
+            </div>
+
+            <div id="credits">
+                <a href="https://www.buymeacoffee.com/dormin" target="_blank">
+
+                </a>
             </div>
         </div>
     );

@@ -1,10 +1,11 @@
-div{
-  margin: 0;
-}
-.card {
-  margin: 8px auto;
-  width: 100%;
-  &__number {
+.similar {
+  margin-top: 10px;
+  .box__img {
+    position: relative;
+
+  }
+
+  .sale-number {
     position: absolute;
     top: 0;
     left: 0;
@@ -28,52 +29,67 @@ div{
 
   }
 
-  &__body {
-    width: 100%;
-    background: white;
-    padding: 6px 0 10px 8px;
-
-  }
-
-  &__title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #393939;
-    margin: 6px 0;
-  }
-
   &__price {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #393939;
-  }
-
-  &__size {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-    color: #7C7C7C;
-    margin: 6px 0 10px;
+    color: #979797;
 
     span {
-      margin-left: 4px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #1D1D1B;
+      margin-left: 8px;
     }
   }
 
+  &__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #393939;
+    margin: 8px 0;
+  }
+
+  &__size {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #979797;
+
+    span {
+      margin-left: 8px;
+    }
+
+    margin-bottom: 16px;
+  }
+
+
   .colors {
     display: flex;
-    &__circle{
+    margin-left: 10px;
+
+    &__circle {
       width: 8px;
       height: 8px;
       border-radius: 50%;
       margin-right: 12px;
+      border: 0.5px solid transparent;
+      padding: 2px;
+    }
+
+    &__circle:hover {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 12px;
+      border: 1px solid #636363;
+      padding: 2px;
+      transition: .5s;
     }
   }
+
   .grey {
     background: #73A39D;
   }
@@ -105,4 +121,5 @@ div{
   .red {
     background: #FF0000;
   }
+
 }
