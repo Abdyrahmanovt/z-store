@@ -2,10 +2,14 @@ import React, {useEffect, useState} from 'react';
 import CardItem from "./CardItem";
 import axios from "axios";
 import './style.css'
+import {Link, useLocation} from "react-router-dom";
+import Loader from "../../Component/Loader";
 
 
 const Sale = () => {
+    const location = useLocation()
     const [products, setProducts] = useState([])
+    console.log(location)
 
     useEffect(() => {
         axios(`https://613fef235cb9280017a110a6.mockapi.io/products`)
@@ -16,6 +20,7 @@ const Sale = () => {
 
 
     const bestSellers = products.filter(item => item.isHit === true)
+
     return (
         <div className="container">
             <div className='sale'>
@@ -24,10 +29,11 @@ const Sale = () => {
                     <div className="row">
                         {
                             bestSellers.map(item => {
-                                console.log(bestSellers)
                                 return (
                                     <div key={item.id} className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                        <CardItem item={item}/>
+                                        <Link to={`/productinfo/${item.id}`}>
+                                            <CardItem item={item}/>
+                                        </Link>
                                     </div>
                                 )
                             })

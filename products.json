@@ -2,10 +2,40 @@
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+      ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 1,
+    "isHit": true,
+    "isNew": true,
+    "id": "1",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -18,25 +48,24 @@
       "#FF0000"
     ],
     "price": 7800,
-    "oldPdice": 39,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
-    "collectionId": 1,
-    "isHit": false,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 2,
+    "isHit": true,
     "isNew": true,
-    "id": "1",
+    "id": "2",
     "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -48,57 +77,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8200,
-    "oldPdice": 4,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
-    "collectionId": 2,
-    "isHit": false,
-    "isNew": true,
-    "id": "2",
-    "oldPrice": 11000
-  },
-  {
-    "title": "Вечернее платье",
-    "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
-      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
-    ],
-    "colors": [
-      "#73A39D",
-      "#84CC4C",
-      "#B5A8A1",
-      "#AB844A",
-      "#6977F0",
-      "#FFFFFF",
-      "#141414",
-      "#FF0000"
-    ],
-    "price": 9500,
-    "oldPdice": 65,
-    "size": "42-50",
-    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 3,
-    "isHit": false,
+    "isHit": true,
     "isNew": true,
     "id": "3",
-    "oldPrice": 14000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -110,26 +107,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 99,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 4,
-    "isHit": false,
+    "isHit": true,
     "isNew": true,
     "id": "4",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -141,26 +137,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 23,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 5,
     "isHit": false,
     "isNew": true,
     "id": "5",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -172,26 +167,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 25,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 6,
     "isHit": false,
     "isNew": true,
     "id": "6",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -203,26 +197,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 69,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 7,
     "isHit": false,
     "isNew": true,
     "id": "7",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -234,26 +227,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 40,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 8,
     "isHit": false,
     "isNew": true,
     "id": "8",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -265,26 +257,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 80,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 9,
     "isHit": false,
     "isNew": true,
     "id": "9",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -296,26 +287,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 64,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 10,
     "isHit": false,
     "isNew": true,
     "id": "10",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -327,26 +317,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 76,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 11,
     "isHit": false,
     "isNew": true,
     "id": "11",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -358,26 +347,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 28,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 12,
     "isHit": false,
     "isNew": true,
     "id": "12",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -389,26 +377,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 87,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 13,
     "isHit": false,
     "isNew": true,
     "id": "13",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -420,26 +407,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 43,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 14,
     "isHit": false,
-    "isNew": false,
+    "isNew": true,
     "id": "14",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -451,26 +437,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 76,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 15,
     "isHit": false,
     "isNew": true,
     "id": "15",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -482,26 +467,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 54,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 16,
     "isHit": false,
-    "isNew": false,
+    "isNew": true,
     "id": "16",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -513,26 +497,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 86,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 17,
     "isHit": false,
     "isNew": true,
     "id": "17",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -544,26 +527,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 70,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 18,
     "isHit": false,
     "isNew": true,
     "id": "18",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -575,26 +557,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 3,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 19,
     "isHit": false,
-    "isNew": false,
+    "isNew": true,
     "id": "19",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -606,26 +587,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 62,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 20,
     "isHit": false,
     "isNew": true,
     "id": "20",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -637,26 +617,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 36,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 21,
     "isHit": false,
-    "isNew": false,
+    "isNew": true,
     "id": "21",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -668,26 +647,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 23,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 22,
     "isHit": false,
     "isNew": true,
     "id": "22",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -699,26 +677,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 53,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 23,
     "isHit": false,
-    "isNew": false,
+    "isNew": true,
     "id": "23",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -730,26 +707,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 33,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 24,
-    "isHit": true,
+    "isHit": false,
     "isNew": true,
     "id": "24",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -761,26 +737,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 8,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 25,
     "isHit": false,
     "isNew": true,
     "id": "25",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -792,26 +767,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 42,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 26,
-    "isHit": true,
+    "isHit": false,
     "isNew": true,
     "id": "26",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -823,26 +797,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 1,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 27,
-    "isHit": true,
-    "isNew": false,
+    "isHit": false,
+    "isNew": true,
     "id": "27",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -854,26 +827,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 62,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 28,
-    "isHit": true,
+    "isHit": false,
     "isNew": true,
     "id": "28",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -885,26 +857,25 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 20,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 29,
     "isHit": false,
-    "isNew": false,
+    "isNew": true,
     "id": "29",
-    "oldPrice": 9000
+    "oldPrice": 10000
   },
   {
     "title": "Вечернее платье",
     "image": [
-      "https://i.ibb.co/KqMFqn2/Rectangle-491-13.png",
-      "https://i.ibb.co/xqCqPYG/image-11-3.png",
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
       "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
-      "https://i.ibb.co/7Cz8k8G/Rectangle-491-11.png"
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
     ],
     "colors": [
       "#73A39D",
@@ -916,17 +887,406 @@
       "#141414",
       "#FF0000"
     ],
-    "price": 8000,
-    "oldPdice": 88,
+    "price": 7800,
     "size": "42-50",
     "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
-    "material": "material 1",
-    "artikul": "arikul 1",
-    "quantity": 56,
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
     "collectionId": 30,
     "isHit": false,
-    "isNew": false,
+    "isNew": true,
     "id": "30",
-    "oldPrice": 9000
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 31,
+    "isHit": false,
+    "isNew": true,
+    "id": "31",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 32,
+    "isHit": false,
+    "isNew": true,
+    "id": "32",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 33,
+    "isHit": false,
+    "isNew": true,
+    "id": "33",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 34,
+    "isHit": false,
+    "isNew": true,
+    "id": "34",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 35,
+    "isHit": false,
+    "isNew": true,
+    "id": "35",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 36,
+    "isHit": false,
+    "isNew": true,
+    "id": "36",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 37,
+    "isHit": false,
+    "isNew": true,
+    "id": "37",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 38,
+    "isHit": false,
+    "isNew": true,
+    "id": "38",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 39,
+    "isHit": false,
+    "isNew": true,
+    "id": "39",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 40,
+    "isHit": false,
+    "isNew": true,
+    "id": "40",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 41,
+    "isHit": false,
+    "isNew": true,
+    "id": "41",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 42,
+    "isHit": false,
+    "isNew": true,
+    "id": "42",
+    "oldPrice": 10000
+  },
+  {
+    "title": "Вечернее платье",
+    "image": [
+      "https://i.ibb.co/7pZkj9n/11.jpg",
+      "https://i.ibb.co/b7WbYrz/Rectangle-491-14.png",
+      "https://i.ibb.co/ZK4c9NF/Rectangle-491-12.png",
+      "https://i.ibb.co/PNmphnB/Rectangle-491-9.png"
+    ],
+    "colors": [
+      "#73A39D",
+      "#84CC4C",
+      "#B5A8A1",
+      "#AB844A",
+      "#6977F0",
+      "#FFFFFF",
+      "#141414",
+      "#FF0000"
+    ],
+    "price": 7800,
+    "size": "42-50",
+    "desc": "Платье-рубашка сливочного оттенка из лёгкого экологичного модала. Ткань комфортная, приятная к телу. Модель прямого свободного кроя, на пуговицах, с отложным воротником, кокеткой с бантовой складкой на спинке, чуть спущенным плечом и длинными рукавами с манжетами, боковыми разрезами и текстильным поясом",
+    "material": "Полиэстер",
+    "artikul": "Полиэстер",
+    "quantity": 6,
+    "collectionId": 43,
+    "isHit": false,
+    "isNew": true,
+    "id": "43",
+    "oldPrice": 10000
   }
 ]

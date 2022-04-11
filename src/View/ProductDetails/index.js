@@ -1,51 +1,43 @@
-import React from 'react';
-import details from './details.png'
-import smallImg from './Rectangle 406.png'
+import React, {useEffect, useState} from 'react';
 import './style.css'
 import SimilarProduct from "./SimilarProduct";
+import {useParams} from "react-router-dom";
+import axios from "axios";
 
-const ProductDetails = () => {
+const ProductDetails = ({item}) => {
+    const params = useParams()
+    const [clothes, setClothes] = useState({})
+
+
+    useEffect(() => {
+        axios(`https://613fef235cb9280017a110a6.mockapi.io/products/${params.id}`)
+            .then(({data}) => {
+                setClothes(data)
+            })
+    }, [])
+
+
     return (
+
         <div className=' container'>
             <div className="details">
                 <div className="row">
-                    <div className="col-lg-6 ">
+                    <div className="col-lg-6">
                         <div className="row">
-                            <div className="col-md-6 col-sm-12">
-                                <img src={details} alt="" className='details__img'/>
-                            </div>
-                            <div className="col-md-6 col-sm-12">
-                                <img src={details} alt="" className='details__img'/>
-                            </div>
-                            <div className="col-md-6 col-sm-12">
-                                <img src={details} alt="" className='details__img'/>
-                            </div>
-                            <div className="col-md-6 col-sm-12">
-                                <img src={details} alt="" className='details__img'/>
-                            </div>
-                            <div className="col-md-12">
-                                <div className="row">
-                                    <div className="col-md-3">
-                                        <img src={smallImg} alt=""/>
+                            {
+                                clothes?.image?.map((item, idx) => (
+                                    <div className="col-lg-6 col-md-4 " key={idx}>
+                                        <img src={item} alt="" className='details__img'/>
                                     </div>
-                                    <div className="col-md-3">
-                                        <img src={smallImg} alt=""/>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <img src={smallImg} alt=""/>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <img src={smallImg} alt=""/>
-                                    </div>
-                                </div>
-                            </div>
+                                ))
+                            }
                         </div>
                     </div>
                     <div className="col-lg-6 ">
                         <div className="details__box">
                             <h3 className="details__title">Вечернее платье</h3>
                             <p className="details__subtitle"> Артикул: <span>Платье PL984/dakota</span></p>
-                            <p className="details__colors">Цвет:
+                            <div className="details__colors">Цвет:
                                 <div className="colors">
                                     <span className="colors__circle grey"></span>
                                     <span className="colors__circle green"></span>
@@ -55,7 +47,7 @@ const ProductDetails = () => {
                                     <span className="colors__circle white"></span>
                                     <span className="colors__circle red"></span>
                                 </div>
-                            </p>
+                            </div>
                             <p className="details__price">7229 р <span>7229 р</span></p>
                             <p className="details__about-title">О товаре:</p>
                             <p className="details__desc">За последние 35 лет бренд Bonucci из обычного производителя
@@ -99,7 +91,7 @@ const ProductDetails = () => {
                 <h2 className="details__heading">Похожие товары</h2>
                 <div className="row">
                     <div className="col-lg-3 col-md-4 col-sm-6">
-                     <SimilarProduct/>
+                        <SimilarProduct/>
                     </div>
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <SimilarProduct/>
@@ -117,3 +109,23 @@ const ProductDetails = () => {
 };
 
 export default ProductDetails;
+
+
+// <div className="col-md-12">
+//     <div className="row mb-3">
+//         <div className="col-md-3">
+//             <img src={smallImg} alt=""/>
+//         </div>
+//         <div className="col-md-3">
+//             <img src={smallImg} alt=""/>
+//         </div>
+//         <div className="col-md-3">
+//             <img src={smallImg} alt=""/>
+//         </div>
+//         <div className="col-md-3">
+//             <img src={smallImg} alt=""/>
+//         </div>
+{/*    </div>*/
+}
+{/*</div>*/
+}
