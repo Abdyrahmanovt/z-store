@@ -1,25 +1,23 @@
-div {
-  margin: 0;
+.favorites {
+  padding: 11px 0;
 }
-
-.card {
+.favorites__card {
   margin: 8px auto;
   width: 100%;
   position: relative;
-  cursor: pointer;
 }
-.card__number {
+.favorites__card__number {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
 }
-.card__rebate {
+.favorites__card__rebate {
   border-top: 50px solid red;
   border-right: 50px solid transparent;
-  margin: 0 !important;
+  margin: 0px !important;
 }
-.card__rebate p {
+.favorites__card__rebate p {
   position: absolute;
   font-weight: 500;
   font-size: 12px;
@@ -29,7 +27,7 @@ div {
   left: 0;
   padding: 7px;
 }
-.card__favorite {
+.favorites__card__favorite {
   position: absolute;
   top: 12px;
   right: 12px;
@@ -37,12 +35,12 @@ div {
   background: transparent;
   border: none;
 }
-.card__body {
+.favorites__card__body {
   width: 100%;
   background: white;
   padding: 6px 0 10px 8px;
 }
-.card__title {
+.favorites__card__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -50,19 +48,19 @@ div {
   color: #393939;
   margin: 6px 0;
 }
-.card__price {
+.favorites__card__price {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #393939;
 }
-.card__price span {
+.favorites__card__price span {
   margin-left: 4px;
   text-decoration-line: line-through;
   color: #ADADAD;
 }
-.card__size {
+.favorites__card__size {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 13px;
@@ -70,41 +68,37 @@ div {
   color: #7C7C7C;
   margin: 6px 0 10px;
 }
-.card__size span {
+.favorites__card__size span {
   margin-left: 4px;
 }
-.card .colors {
+.favorites__card .colors {
   display: flex;
 }
-.card .colors__circle {
+.favorites__card .colors__circle {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   margin-right: 12px;
 }
-.card .grey {
-  background: #73A39D;
+.favorites__card:hover {
+  box-shadow: 0 0 8px 5px rgba(34, 60, 80, 0.2);
+  transition: 0.6s;
 }
-.card .green {
-  background: #84CC4C;
+.favorites__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #393939;
+  margin-bottom: 12px;
 }
-.card .purple {
-  background: #B5A8A1;
+.favorites__subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #979797;
 }
-.card .brown {
-  background: #AB844A;
-}
-.card .blue {
-  background: #6977F0;
-}
-.card .white {
-  background: #FFFFFF;
-}
-.card .black {
-  background: #141414;
-}
-.card .red {
-  background: #FF0000;
+.favorites__subtitle span {
+  margin-right: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */

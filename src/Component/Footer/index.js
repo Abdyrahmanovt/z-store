@@ -1,8 +1,6 @@
 import React from 'react';
-import './style.css'
-import footerIcon from './Vector (3).png'
-import footerPhone from './Vector (4).png'
-import footerMail from './Vector (5).png'
+import './style.css';
+import footerIcon from './Vector (3).png';
 import {Link} from "react-router-dom";
 
 const Footer = () => {

@@ -48,6 +48,10 @@ img {
     width: 100%;
     object-fit: contain;
 }
+.card:hover{
+    box-shadow: 0 0 8px 5px rgba(34, 60, 80, 0.2);
+    transition: .6s;
+}
 
 /*@media (min-width: 600px) {*/
 /*    .col-card{*/

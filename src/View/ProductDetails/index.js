@@ -4,7 +4,7 @@ import SimilarProduct from "./SimilarProduct";
 import {useParams} from "react-router-dom";
 import axios from "axios";
 
-const ProductDetails = ({item}) => {
+const ProductDetails = () => {
     const params = useParams()
     const [clothes, setClothes] = useState({})
 
@@ -18,7 +18,6 @@ const ProductDetails = ({item}) => {
 
 
     return (
-
         <div className=' container'>
             <div className="details">
                 <div className="row">
@@ -35,32 +34,27 @@ const ProductDetails = ({item}) => {
                     </div>
                     <div className="col-lg-6 ">
                         <div className="details__box">
-                            <h3 className="details__title">Вечернее платье</h3>
-                            <p className="details__subtitle"> Артикул: <span>Платье PL984/dakota</span></p>
+                            <h3 className="details__title">{clothes.title}</h3>
+                            <p className="details__subtitle"> Артикул: <span>{clothes.artikul}</span></p>
                             <div className="details__colors">Цвет:
                                 <div className="colors">
-                                    <span className="colors__circle grey"></span>
-                                    <span className="colors__circle green"></span>
-                                    <span className="colors__circle blue"></span>
-                                    <span className="colors__circle brown"></span>
-                                    <span className="colors__circle purple"></span>
-                                    <span className="colors__circle white"></span>
-                                    <span className="colors__circle red"></span>
+                                    <div className="green colors__circle"></div>
+                                    <div className="blue colors__circle"></div>
+                                    <div className="black colors__circle"></div>
+                                    <div className="red colors__circle"></div>
                                 </div>
                             </div>
-                            <p className="details__price">7229 р <span>7229 р</span></p>
+                            <p className="details__price">{clothes.price} p<span>{clothes.oldPrice} р</span></p>
                             <p className="details__about-title">О товаре:</p>
-                            <p className="details__desc">За последние 35 лет бренд Bonucci из обычного производителя
-                                одежды превратился в широко узнаваемую марку, а его продукция – в синоним высокого
-                                качества и актуального стиля. </p>
+                            <p className="details__desc">{clothes.desc}</p>
                             <div className='details__info'>
                                 <div className="details__size">
-                                    <p>Размерный ряд: <span>42-50</span></p>
-                                    <p>Количество в линейке: <span>5</span></p>
+                                    <p>Размерный ряд: <span>{clothes.size}</span></p>
+                                    <p>Количество в линейке: <span>{clothes.quantity}</span></p>
                                 </div>
                                 <div className="details__composition">
-                                    <p>Состав ткани: <span>Полиэстер</span></p>
-                                    <p>Материал: <span>Полиэстер</span></p>
+                                    <p>Состав ткани: <span>{clothes.artikul}</span></p>
+                                    <p>Материал: <span>{clothes.material}</span></p>
                                 </div>
                             </div>
                             <div className='details__btns'>

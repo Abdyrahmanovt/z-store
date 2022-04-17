@@ -25,21 +25,6 @@
     }
   }
 
-  &__body:hover {
-    background: #fff;
-    transition: .5s;
-
-    .collectingItem__subtitle {
-      color: #1D1D1B;
-      transition: .5s;
-    }
-
-    i {
-      color: black;
-      transition: .5s;
-
-    }
-  }
   &__title {
     position: absolute;
     bottom: 14%;
@@ -50,6 +35,23 @@
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
+
+  }
+}
+
+.collectingItem:hover {
+  .collectingItem__body {
+    background: #fff;
+    transition: .5s;
+  }
+  .collectingItem__subtitle {
+    color: #1D1D1B;
+    transition: .5s;
+  }
+
+  i {
+    color: black;
+    transition: .5s;
 
   }
 }

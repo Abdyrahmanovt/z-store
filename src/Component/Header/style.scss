@@ -52,30 +52,34 @@
   justify-content: space-between;
   padding: 9px 0;
 
-  .arrow-up {
+  .helper {
     position: fixed;
-    top: 60%;
+    top: 50%;
     right: 8%;
     z-index: 100;
     background: transparent;
     border: none;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
+    &__up {
+      z-index: 100;
+      background: transparent;
+      border: none;
+
+    }
+
+    &__icon {
+
+      .helper__chat {
+        background: transparent;
+        border: none;
+
+      }
+    }
   }
 
-  &__arrowUp {
-    z-index: 100;
-    background: transparent;
-    border: none;
-
-  }
-
-  &__chat {
-
-    background: transparent;
-    border: none;
-  }
 
   &__logo {
     height: 70px;
@@ -85,6 +89,7 @@
     display: flex;
     align-items: center;
     margin: 0 34px;
+
 
     input {
       font-family: 'Montserrat', sans-serif;
@@ -101,8 +106,7 @@
 
     button {
       padding: 13px;
-      border: 1px solid #E0E0E0;
-      border-left: none;
+      border: none;
       display: flex;
       align-items: center;
       justify-content: center;

@@ -22,18 +22,6 @@
   margin-left: 15px;
   color: white;
 }
-.collectingItem__body:hover {
-  background: #fff;
-  transition: 0.5s;
-}
-.collectingItem__body:hover .collectingItem__subtitle {
-  color: #1D1D1B;
-  transition: 0.5s;
-}
-.collectingItem__body:hover i {
-  color: black;
-  transition: 0.5s;
-}
 .collectingItem__title {
   position: absolute;
   bottom: 14%;
@@ -44,6 +32,19 @@
   line-height: 18px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.collectingItem:hover .collectingItem__body {
+  background: #fff;
+  transition: 0.5s;
+}
+.collectingItem:hover .collectingItem__subtitle {
+  color: #1D1D1B;
+  transition: 0.5s;
+}
+.collectingItem:hover i {
+  color: black;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

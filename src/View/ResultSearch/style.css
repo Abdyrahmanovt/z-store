@@ -1,25 +1,24 @@
-div {
-  margin: 0;
+.result {
+  padding: 11px 0;
 }
-
-.card {
+.result .card {
   margin: 8px auto;
   width: 100%;
   position: relative;
   cursor: pointer;
 }
-.card__number {
+.result .card__number {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
 }
-.card__rebate {
+.result .card__rebate {
   border-top: 50px solid red;
   border-right: 50px solid transparent;
   margin: 0 !important;
 }
-.card__rebate p {
+.result .card__rebate p {
   position: absolute;
   font-weight: 500;
   font-size: 12px;
@@ -29,7 +28,7 @@ div {
   left: 0;
   padding: 7px;
 }
-.card__favorite {
+.result .card__favorite {
   position: absolute;
   top: 12px;
   right: 12px;
@@ -37,12 +36,12 @@ div {
   background: transparent;
   border: none;
 }
-.card__body {
+.result .card__body {
   width: 100%;
   background: white;
   padding: 6px 0 10px 8px;
 }
-.card__title {
+.result .card__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -50,19 +49,19 @@ div {
   color: #393939;
   margin: 6px 0;
 }
-.card__price {
+.result .card__price {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #393939;
 }
-.card__price span {
+.result .card__price span {
   margin-left: 4px;
   text-decoration-line: line-through;
   color: #ADADAD;
 }
-.card__size {
+.result .card__size {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 13px;
@@ -70,40 +69,40 @@ div {
   color: #7C7C7C;
   margin: 6px 0 10px;
 }
-.card__size span {
+.result .card__size span {
   margin-left: 4px;
 }
-.card .colors {
+.result .card .colors {
   display: flex;
 }
-.card .colors__circle {
+.result .card .colors__circle {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   margin-right: 12px;
 }
-.card .grey {
+.result .card .grey {
   background: #73A39D;
 }
-.card .green {
+.result .card .green {
   background: #84CC4C;
 }
-.card .purple {
+.result .card .purple {
   background: #B5A8A1;
 }
-.card .brown {
+.result .card .brown {
   background: #AB844A;
 }
-.card .blue {
+.result .card .blue {
   background: #6977F0;
 }
-.card .white {
+.result .card .white {
   background: #FFFFFF;
 }
-.card .black {
+.result .card .black {
   background: #141414;
 }
-.card .red {
+.result .card .red {
   background: #FF0000;
 }
 

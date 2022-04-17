@@ -1,5 +1,5 @@
 import React from 'react';
-import elis from './elis.jpg'
+import hero from './hero.png'
 import Sale from "../Sale";
 import './style..css'
 import {Swiper, SwiperSlide} from 'swiper/react';
@@ -16,12 +16,11 @@ const Home = () => {
                     spaceBetween={5}
                     slidesPerView={1}
                     autoplay={true}
-                    onSwiper={(swiper) => console.log(swiper)}
-                    onSlideChange={() => console.log('slide change')}>
-                    <SwiperSlide><img src={elis} alt=""/></SwiperSlide>
-                    <SwiperSlide><img src={elis} alt=""/></SwiperSlide>
-                    <SwiperSlide><img src={elis} alt=""/></SwiperSlide>
-                    <SwiperSlide><img src={elis} alt=""/></SwiperSlide>
+                    >
+                    <SwiperSlide><img src={hero} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={hero} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={hero} alt=""/></SwiperSlide>
+                    <SwiperSlide><img src={hero} alt=""/></SwiperSlide>
                 </Swiper>
 
                 <Sale/>
@@ -36,6 +35,8 @@ const Home = () => {
 export default Home;
 
 
-// <img src={hero} alt=""/>
+
+// onSwiper={(swiper) => console.log(swiper)}
+// onSlideChange={() => console.log('slide change')}>
 
 

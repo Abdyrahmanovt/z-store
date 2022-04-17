@@ -1,19 +1,19 @@
-.contract {
+.offer {
   padding: 11px 0;
 }
-.contract__title {
+.offer__title {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
   color: #393939;
   margin-bottom: 18px;
 }
-.contract__box {
+.offer__box {
   background: #FFFFFF;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.02);
   padding: 16px;
 }
-.contract__desc {
+.offer__desc {
   font-weight: 300;
   font-size: 14px;
   line-height: 165%;

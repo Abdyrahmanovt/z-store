@@ -1,15 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import CardItem from "./CardItem";
 import axios from "axios";
-import './style.css'
-import {Link, useLocation} from "react-router-dom";
-import Loader from "../../Component/Loader";
+import './style.css';
 
 
 const Sale = () => {
-    const location = useLocation()
     const [products, setProducts] = useState([])
-    console.log(location)
+    const [showMore, setShowMore] = useState(false)
 
     useEffect(() => {
         axios(`https://613fef235cb9280017a110a6.mockapi.io/products`)
@@ -17,7 +14,6 @@ const Sale = () => {
                 setProducts(data)
             })
     }, [])
-
 
     const bestSellers = products.filter(item => item.isHit === true)
 
@@ -31,17 +27,18 @@ const Sale = () => {
                             bestSellers.map(item => {
                                 return (
                                     <div key={item.id} className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                        <Link to={`/productinfo/${item.id}`}>
-                                            <CardItem item={item}/>
-                                        </Link>
+                                        <CardItem item={item}/>
                                     </div>
                                 )
                             })
+
                         }
                     </div>
-                </div>
-                <div className='btn-more'>
-                    <button type="button">Еще</button>
+                    <div className='btn-more'>
+                        <button type="button" onClick={() => setShowMore(!showMore)}>
+                            Еще
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

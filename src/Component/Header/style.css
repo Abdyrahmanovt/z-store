@@ -46,22 +46,23 @@
   justify-content: space-between;
   padding: 9px 0;
 }
-.header .arrow-up {
+.header .helper {
   position: fixed;
-  top: 60%;
+  top: 50%;
   right: 8%;
   z-index: 100;
   background: transparent;
   border: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
-.header__arrowUp {
+.header .helper__up {
   z-index: 100;
   background: transparent;
   border: none;
 }
-.header__chat {
+.header .helper__icon .helper__chat {
   background: transparent;
   border: none;
 }
@@ -87,8 +88,7 @@
 }
 .header__search button {
   padding: 13px;
-  border: 1px solid #E0E0E0;
-  border-left: none;
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;

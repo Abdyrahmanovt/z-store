@@ -17,7 +17,13 @@ const Basket = () => {
                                 <p className="basket__left-size">Размер: <span>42-50</span></p>
                                 <p className="basket__left-color">Цвет: <div className="basket__color-div"> </div></p>
                                 <p className="basket__left-price">1 365 р <span>2 730 р</span></p>
+                           <div className="basket__btns">
+                               <button className="basket__dec-btn">-</button>
+                               <p className="basket__count">1</p>
+                               <button className="basket__inc-btn">+</button>
+                           </div>
                             </div>
+                        <div className="basket__cross"> </div>
                         </div>
                     </div>
                     <div className="col-lg-4">

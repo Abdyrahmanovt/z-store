@@ -1,19 +1,24 @@
-div{
+div {
   margin: 0;
 }
+
 .card {
   margin: 8px auto;
   width: 100%;
+  position: relative;
+  cursor: pointer;
+
   &__number {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 10;
   }
 
   &__rebate {
     border-top: 50px solid red;
     border-right: 50px solid transparent;
-    margin: 0px !important;
+    margin: 0 !important;
 
     p {
       position: absolute;
@@ -26,6 +31,15 @@ div{
       padding: 7px;
     }
 
+  }
+
+  &__favorite {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    background: transparent;
+    border: none;
   }
 
   &__body {
@@ -50,6 +64,12 @@ div{
     font-size: 16px;
     line-height: 20px;
     color: #393939;
+
+    span {
+      margin-left: 4px;
+      text-decoration-line: line-through;
+      color: #ADADAD;
+    }
   }
 
   &__size {
@@ -67,13 +87,15 @@ div{
 
   .colors {
     display: flex;
-    &__circle{
+
+    &__circle {
       width: 8px;
       height: 8px;
       border-radius: 50%;
       margin-right: 12px;
     }
   }
+
   .grey {
     background: #73A39D;
   }
