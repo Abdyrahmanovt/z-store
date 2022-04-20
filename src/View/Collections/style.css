@@ -23,4 +23,53 @@ div {
   margin-left: auto;
 }
 
+.collectingItem {
+  position: relative;
+  margin: 10px 0;
+}
+.collectingItem__body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  background: #1D1D1B;
+}
+.collectingItem__body .collectingItem__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: end;
+}
+.collectingItem__body i {
+  margin-left: 15px;
+  color: white;
+}
+.collectingItem__title {
+  position: absolute;
+  bottom: 14%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #F8F8F8;
+  width: 100%;
+}
+
+.collectingItem:hover .collectingItem__body {
+  background: #fff;
+  transition: 0.5s;
+}
+.collectingItem:hover .collectingItem__subtitle {
+  color: #1D1D1B;
+  transition: 0.5s;
+}
+.collectingItem:hover i {
+  color: black;
+  transition: 0.5s;
+}
+
 /*# sourceMappingURL=style.css.map */

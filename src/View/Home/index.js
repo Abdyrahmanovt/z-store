@@ -18,6 +18,7 @@ const Home = () => {
                     spaceBetween={5}
                     slidesPerView={1}
                     autoplay={true}
+                    pagination={{clickable: true }}
                     >
                     <SwiperSlide><img src={hero} alt=""/></SwiperSlide>
                     <SwiperSlide><img src={hero} alt=""/></SwiperSlide>
