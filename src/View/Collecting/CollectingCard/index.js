@@ -1,16 +1,16 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import './style.css'
-import collectingImg from './collecting.png'
 
 
-const CollectingCard = () => {
+const CollectingCard = ({item}) => {
+
     return (
         <div className="container">
-            <Link to='/collectionsPage'>
+            <Link to={`/collectionspage/${item.id}`}>
                 <div className='collectingItem'>
-                    <img src={collectingImg} alt="" className="collectingItem__img"/>
-                    <h2 className="collectingItem__title">Повседневная одежда</h2>
+                    <img src={item.image} alt="" className="collectingItem__img"/>
+                    <div className="collectingItem__title">{item.title}</div>
                     <div className="collectingItem__body">
                         <div><h2 className="collectingItem__subtitle">Смотреть все</h2></div>
                         <div><i className="fa-solid fa-angle-right"/></div>

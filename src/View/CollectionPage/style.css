@@ -1,3 +1,7 @@
+div {
+  margin: 0;
+}
+
 .collectingPage {
   padding: 32px 0;
 }
@@ -6,6 +10,110 @@
   font-size: 24px;
   line-height: 29px;
   color: #393939;
+}
+.collectingPage .card {
+  margin: 8px auto;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.collectingPage .card__number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.collectingPage .card__rebate {
+  border-top: 50px solid red;
+  border-right: 50px solid transparent;
+  margin: 0 !important;
+}
+.collectingPage .card__rebate p {
+  position: absolute;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  transform: rotate(-45deg);
+  top: 0;
+  left: 0;
+  padding: 7px;
+}
+.collectingPage .card__favorite {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+  background: transparent;
+  border: none;
+}
+.collectingPage .card__body {
+  width: 100%;
+  background: white;
+  padding: 6px 0 10px 8px;
+}
+.collectingPage .card__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #393939;
+  margin: 6px 0;
+}
+.collectingPage .card__price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #393939;
+}
+.collectingPage .card__price span {
+  margin-left: 4px;
+  text-decoration-line: line-through;
+  color: #ADADAD;
+}
+.collectingPage .card__size {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7C7C7C;
+  margin: 6px 0 10px;
+}
+.collectingPage .card__size span {
+  margin-left: 4px;
+}
+.collectingPage .card .colors {
+  display: flex;
+}
+.collectingPage .card .colors__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.collectingPage .card .grey {
+  background: #73A39D;
+}
+.collectingPage .card .green {
+  background: #84CC4C;
+}
+.collectingPage .card .purple {
+  background: #B5A8A1;
+}
+.collectingPage .card .brown {
+  background: #AB844A;
+}
+.collectingPage .card .blue {
+  background: #6977F0;
+}
+.collectingPage .card .white {
+  background: #FFFFFF;
+}
+.collectingPage .card .black {
+  background: #141414;
+}
+.collectingPage .card .red {
+  background: #FF0000;
 }
 
 /*# sourceMappingURL=style.css.map */

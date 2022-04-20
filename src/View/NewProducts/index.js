@@ -1,59 +1,46 @@
 import React, {useEffect, useState} from 'react';
-import CardItem from "../Sale/CardItem";
 import {Link} from "react-router-dom";
 import axios from "axios";
-import './style.css'
+import NewCard from "../NewProducts/NewCard";
+import './style.css';
 
 
 const NewProducts = () => {
-    const [newProduct,setNewProduct] = useState([])
+    const [newProduct, setNewProduct] = useState([])
+    const [limit, setLimit] = useState(false)
 
-    useEffect(()=>{
+    useEffect(() => {
         axios(`https://613fef235cb9280017a110a6.mockapi.io/products`)
-            .then(({data}) =>setNewProduct(data.data))
+            .then(({data}) => {
+                setNewProduct(data)
+                console.log(data)
+            })
 
-    },[])
+    }, [])
+    const handleClick = () => {
+        setLimit(!limit)
+    }
     return (
         <div className="container">
             <div className="newProduct">
-                {
-                    newProduct.map(el =>{
-                        if(el.isNew === true){
-                            return (
-                                <div key={el.id}>
-                                    <h2 className="newProduct__title">Новинки</h2>
-                                    <div className="newProduct__collections">
-                                        <div className="row">
-                                            <div className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                                <Link to='/productinfo'><CardItem el={el}/></Link>
-                                            </div>
-                                            <div className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                                <Link to='/productinfo'><CardItem el={el}/></Link>
-                                            </div>
-                                            <div className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                                <Link to='/productinfo'><CardItem el={el}/></Link>
-                                            </div>
-                                            <div className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                                <Link to='/productinfo'><CardItem el={el}/></Link>
-                                            </div>
-                                            <div className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                                <Link to='/productinfo'><CardItem el={el}/></Link>
-                                            </div>
-                                            <div className="col-lg-3 col-md-4 col-sm-6 col-card">
-                                                <Link to='/productinfo'><CardItem el={el}/></Link>
-                                            </div>
+                <div>
+                    <h2 className="newProduct__title">Новинки</h2>
+                    <div className="newProduct__collections">
+                        <div className="row">
+                            {
+                                newProduct ?
+                                    newProduct.slice(0, limit ? 16 : 8).map(elem => (
+                                        <div className="col-lg-3 col-md-4 col-sm-6 col-card" key={elem.id}>
+                                            <NewCard elem={elem}/>
                                         </div>
-                                        <div className="btn-more">
-                                            <button type='button'>Еще</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            )
-                        }
-
-                    })
-                }
+                                    )) : null
+                            }
+                        </div>
+                        <div className="btn-more">
+                            <button type='button' onClick={handleClick}>Еще</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

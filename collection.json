@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Платья",
+    "image": "https://elis.ru/upload/resize_cache/iblock/8ef/q76tgf7rxxu6yly63ziazt8k17hz8143/540_756_1/a42f4063_fe7e_11eb_9dcd_0050568e2ffe_78c011ff_6b36_4eb8_bbcd_e42619e05918.jpeg",
+    "id": "1"
+  },
+  {
+    "title": "Брюки и шорты",
+    "image": "https://elis.ru/upload/resize_cache/iblock/377/4t0acj6ep0x57zk1ljpduwuj77ulc9k6/540_756_1/8ecd1978_ef7e_11eb_9dca_0050568e2ffe_6f13d4d1_d134_406c_990b_7e2ba5fbb3ca.jpeg",
+    "id": "2"
+  },
+  {
+    "title": "Юбки",
+    "image": "https://elis.ru/upload/resize_cache/iblock/7c2/f341jd5yzz0rybs61xx7dbqvsnzxqwrc/540_756_1/92a55346_b92e_11eb_9dc7_0050568e2ffe_5f2af999_2f9f_425d_a3f6_48788cf805fb.jpeg",
+    "id": "3"
+  },
+  {
+    "title": "Джинсы",
+    "image": "https://elis.ru/upload/resize_cache/iblock/824/2lishklvfzh4px1ae63fqeee668hkk00/540_756_1/b00f94fd_2a88_11ec_9dd0_0050568e2ffe_243a9c4d_12fb_437f_ae01_22b7e9be2e7b.jpeg",
+    "id": "4"
+  },
+  {
+    "title": "Водолазки",
+    "image": "https://elis.ru/upload/resize_cache/iblock/eae/ngl4zpxjvlqitfachsosiyy5lwcoli3e/540_756_1/b480d1e8_ad90_11eb_9dc7_0050568e2ffe_0bec5056_4749_4daa_b6a2_c3d00e613566.jpeg",
+    "id": "5"
+  },
+  {
+    "title": "Блузы",
+    "image": "https://elis.ru/upload/resize_cache/iblock/03e/jc1izxa5fq6vtiecqh81ahpw0vjjwkba/540_756_1/a0cdbca0_0645_11ec_9dcd_0050568e2ffe_4c5168b5_c153_4eed_8af6_81b0fd847ea7.jpeg",
+    "id": "6"
+  },
+  {
+    "title": "Вязаный трикотаж",
+    "image": "https://elis.ru/upload/resize_cache/iblock/9a6/ctv5lyzxblhyr8bth10d01o84q33s3cj/540_756_1/e35ea7ae_ffe9_11eb_9dcd_0050568e2ffe_8f38b918_b270_4383_a3b2_d6d1c50a053e.jpeg",
+    "id": "7"
+  },
+  {
+    "title": "Свитшоты и Худи",
+    "image": "https://elis.ru/upload/resize_cache/iblock/00f/jnlv86o1ei4c2c40g49p3yz1uwqvetys/540_756_1/b3631f59_7b10_11eb_9dc5_0050568e2ffe_da97ad89_27bc_4067_ae24_3fc5913a9ca6.jpeg",
+    "id": "8"
+  },
+  {
+    "title": "Верхняя одежда",
+    "image": "https://elis.ru/upload/resize_cache/iblock/a9f/3nt5rmkqcsdohu1dnyt2ngn3ww9xqun6/540_756_1/88276275_cead_11eb_9dc9_0050568e2ffe_bc4e305f_91ae_48e2_beb1_14f7c28cbfb4.jpeg",
+    "id": "9"
+  },
+  {
+    "title": "Костюмы",
+    "image": "https://elis.ru/upload/resize_cache/iblock/fe6/mmbycz589g5idco8fusawrnkz3rmxhxz/540_756_1/5afb4eb0_0646_11ec_9dcd_0050568e2ffe_9b53bf3d_bac3_4818_b41b_cc04ccfa6177.jpeg",
+    "id": "10"
+  },
+  {
+    "title": "Жакеты",
+    "image": "https://elis.ru/upload/resize_cache/iblock/90a/mhso8ts59wt05klipebq0elvtcj91uh4/540_756_1/d94789ec_12aa_11eb_80be_0050568edac2_54298211_6aee_4eac_906b_a9a89b13f7e7.resize1.jpeg",
+    "id": "11"
+  },
+  {
+    "title": "Джемперы и кардинганы",
+    "image": "https://elis.ru/upload/resize_cache/iblock/ca1/2hbtugxldr1b8y5u74x644037j6kfvy8/540_756_1/92674b7c_dd56_11eb_9dc9_0050568e2ffe_d902be10_1bce_451e_8512_0e04f6d81c29.jpeg",
+    "id": "12"
+  }
+]

@@ -1,5 +1,5 @@
 import React from 'react';
-import rectangle from "../../Sale/CardItem/Rectangle 491 (1).png";
+import rectangle from "../../HitProduct/CardItem/Rectangle 491 (1).png";
 import './style.css'
 
 const NewCard = () => {

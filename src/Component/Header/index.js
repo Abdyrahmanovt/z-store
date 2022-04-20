@@ -69,7 +69,7 @@ const Header = () => {
                         <img src={shop} alt=""/>
                         <span>Корзина</span>
                     </NavLink>
-                    <div className='helper'>
+                    <div className='helper' >
                         <button className="helper__up" onClick={handlerScrollUp}>
                             <svg width="44" height="44" viewBox="0 0 44 44" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -78,8 +78,8 @@ const Header = () => {
                                     fill="#2E2E2C"/>
                             </svg>
                         </button>
-                        <div className="helper__icon">
-                           <button type='button' className='helper__chat'>
+                        <div className="helper__icon" onClick={() => setHelpBtn(!helpBtn)}>
+                            <button type='button' className='helper__chat'>
                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                    <path

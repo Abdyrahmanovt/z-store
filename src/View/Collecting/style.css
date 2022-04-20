@@ -1,15 +1,27 @@
 .collecting {
   text-align: center;
+  padding: 18px 0;
+}
+.collecting .btn-more {
+  width: 100px;
+  margin: 0 auto;
+}
+.collecting .btn-more button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding: 8px 38.8px;
+  border: none;
+  background: #1D1D1B;
 }
 .collecting__title {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  text-align: center;
   color: #393939;
-  margin: 18px auto;
+  margin-bottom: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

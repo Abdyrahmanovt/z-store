@@ -10,27 +10,6 @@ const Collections = () => {
                     <h3 className="collections__title">Коллекции</h3>
                     <div className="row ">
                         <div className="col-lg-3 col-md-4 col-sm-6">
-                               <CollectingCard/>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <CollectingCard/>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <CollectingCard/>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <CollectingCard/>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <CollectingCard/>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <CollectingCard/>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <CollectingCard/>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
                             <CollectingCard/>
                         </div>
                     </div>

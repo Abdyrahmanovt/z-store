@@ -4,9 +4,9 @@ import axios from "axios";
 import './style.css';
 
 
-const Sale = () => {
+const HitProduct = () => {
     const [products, setProducts] = useState([])
-    const [showMore, setShowMore] = useState(false)
+    const [limit, setLimit] = useState(false)
 
     useEffect(() => {
         axios(`https://613fef235cb9280017a110a6.mockapi.io/products`)
@@ -17,27 +17,28 @@ const Sale = () => {
 
     const bestSellers = products.filter(item => item.isHit === true)
 
+    const handleClick = () => {
+        setLimit(!limit)
+    }
+
     return (
         <div className="container">
-            <div className='sale'>
-                <h2 className='sale__title'>Хит продаж</h2>
-                <div className="sale__collections">
+            <div className='hit'>
+                <h2 className='hit__title'>Хит продаж</h2>
+                <div className="hit__collections">
                     <div className="row">
                         {
-                            bestSellers.map(item => {
+                            products.slice(0, limit ? 16 : 8).map(item => {
                                 return (
                                     <div key={item.id} className="col-lg-3 col-md-4 col-sm-6 col-card">
                                         <CardItem item={item}/>
                                     </div>
                                 )
                             })
-
                         }
                     </div>
                     <div className='btn-more'>
-                        <button type="button" onClick={() => setShowMore(!showMore)}>
-                            Еще
-                        </button>
+                        <button type="button" onClick={handleClick}>Еще</button>
                     </div>
                 </div>
             </div>
@@ -45,7 +46,7 @@ const Sale = () => {
     );
 };
 
-export default Sale;
+export default HitProduct;
 
 
 

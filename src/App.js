@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import Layout from "./Component/Layout";
 import News from "./View/News";
@@ -11,8 +11,8 @@ import Basket from "./View/Basket";
 import Favorites from "./View/Favorites";
 import Help from "./View/Help";
 import Contract from "./View/Offer";
-import axios from "axios";
 import ResultSeach from "./View/ResultSearch";
+import CollectionPage from "./View/CollectionPage";
 
 const App = () => {
     // const [product, setProduct] = useState([])
@@ -35,7 +35,7 @@ const App = () => {
                         <Route exact path='/about' element={<About/>}/>
                         <Route exact path='/collections' element={<Collections/>}/>
                         <Route exact path='/result/:title' element={<ResultSeach/>}/>
-                        {/*<Route exact path='/collectionsPage' element={<CollectionPage/>}/>*/}
+                        <Route exact path='/collectionspage/:id' element={<CollectionPage/>}/>
                         <Route exact path='/basket' element={<Basket/>}/>
                         <Route exact path='/help' element={<Help/>}/>
                         <Route exact path='/offer' element={<Contract/>}/>

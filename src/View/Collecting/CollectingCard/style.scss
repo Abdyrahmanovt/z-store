@@ -2,6 +2,9 @@
   position: relative;
   margin: 10px 0;
 
+
+
+
   &__body {
     width: 100%;
     display: flex;
@@ -28,13 +31,13 @@
   &__title {
     position: absolute;
     bottom: 14%;
-    margin: 0 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF;
+    color: #F8F8F8;
+    width: 100%;
 
   }
 }
@@ -44,6 +47,7 @@
     background: #fff;
     transition: .5s;
   }
+
   .collectingItem__subtitle {
     color: #1D1D1B;
     transition: .5s;

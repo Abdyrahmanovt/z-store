@@ -1,9 +1,11 @@
 import React from 'react';
 import hero from './hero.png'
-import Sale from "../Sale";
 import './style..css'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Navigation, Pagination, Scrollbar, A11y,Autoplay} from 'swiper';
+import NewProducts from "../NewProducts";
+import Collecting from "../Collecting";
+import HitProduct from "../HitProduct";
 
 const Home = () => {
 
@@ -23,9 +25,9 @@ const Home = () => {
                     <SwiperSlide><img src={hero} alt=""/></SwiperSlide>
                 </Swiper>
 
-                <Sale/>
-                {/*<NewProducts/>*/}
-                {/*<Collecting/>*/}
+                <HitProduct/>
+                <NewProducts/>
+                <Collecting/>
                 {/*<Advantage/>*/}
             </div>
         </div>
