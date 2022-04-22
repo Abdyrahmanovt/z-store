@@ -17,7 +17,6 @@ const Collecting = () => {
         axios(`https://613fef235cb9280017a110a6.mockapi.io/collections`)
             .then(({data}) => {
                 setCollection(data)
-                console.log("Коллекция работает")
             })
     }, [])
 

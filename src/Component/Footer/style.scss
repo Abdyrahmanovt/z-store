@@ -8,6 +8,22 @@
   &__menu {
     margin: 0;
     padding-left: 0;
+
+    li {
+      a {
+        span {
+          color: #F8F8F8;
+        }
+      }
+
+      svg {
+        margin-right: 7px;
+      }
+
+      .gmail {
+        margin-left: 4px;
+      }
+    }
   }
 
   &__title {

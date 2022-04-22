@@ -11,6 +11,15 @@
   background: #FFFFFF;
   display: flex;
   align-items: center;
+  position: relative;
+}
+.basket__cross {
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
 }
 .basket__left-title {
   font-weight: 400;

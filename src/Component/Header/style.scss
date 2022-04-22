@@ -1,6 +1,3 @@
-div {
-  margin: 0;
-}
 
 .nav {
   display: flex;
@@ -29,10 +26,10 @@ div {
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
-    color: #979797;
+    color: #000000;
     margin-right: 6px;
 
-    span {
+    a {
       font-family: 'Montserrat', sans-serif;
       font-weight: 400;
       font-size: 17px;
@@ -59,13 +56,34 @@ div {
   .helper {
     position: fixed;
     top: 50%;
-    right: 8%;
+    right: 6%;
     z-index: 100;
     background: transparent;
     border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    &__message {
+      background: transparent;
+      border: none;
+
+    }
+
+    .helper__call_back {
+      display: flex;
+      margin-left: -138px;
+      align-items: center;
+
+    }
+
+    .whatsapp {
+      margin: 0 6px;
+    }
+
+    &__phone {
+      margin-right: 6px;
+    }
 
     &__up {
       z-index: 100;
@@ -76,14 +94,9 @@ div {
 
     &__icon {
 
-      .helper__chat {
-        background: transparent;
-        border: none;
 
-      }
     }
   }
-
 
   &__logo {
     height: 70px;
@@ -166,6 +179,8 @@ div {
 
     }
   }
+
+
 }
 
 .header-mobile {

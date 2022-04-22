@@ -2,21 +2,22 @@ import React, {useEffect, useState} from 'react';
 import './style.css'
 import axios from "axios";
 import {Link} from "react-router-dom";
-
+import ReactPaginate from 'react-paginate'
 const Collections = () => {
     const [coll, setColl] = useState([])
-    const [page, setPage] = useState(1)
+    const [page, setPage] = useState(0)
+
+    const collectionCount = 8
+
 
     useEffect(() => {
-        axios(`https://613fef235cb9280017a110a6.mockapi.io/collections?=page=${page}`)
+        axios(`https://613fef235cb9280017a110a6.mockapi.io/collections`)
             .then(({data}) => {
                 setColl(data)
             })
-    }, [page])
+    }, [])
 
-    const handlePage = (item) => {
-        setPage(item)
-    }
+
     return (
         <div className="container">
             <div className='collections'>
@@ -43,13 +44,6 @@ const Collections = () => {
 
                 <div className="button-group d-flex flex-end">
                     <div className="btn-group btn-str d-flex flex-end " aria-label="First group">
-                        {
-                            [...Array(2).keys()].map(item => (
-                                <button key={item} type={"button"}
-                                        className={`my-4 btn btn-outline-secondar mx-1 ${page === item + 1 && 'btn btn-danger'} `}
-                                        onClick={() => handlePage(item + 1)}>{item + 1}</button>
-                            ))
-                        }
                     </div>
                 </div>
                 {/*</div>*/}
@@ -60,3 +54,11 @@ const Collections = () => {
 
 export default Collections;
 
+
+// {
+//     [...Array(2).keys()].map(item => (
+//         <button key={item} type={"button"}
+//                 className={`my-4 btn btn-outline-secondar mx-1 ${page === item + 1 && 'btn btn-danger'} `}
+//                 onClick={() => handlePage(item + 1)}>{item + 1}</button>
+//     ))
+// }

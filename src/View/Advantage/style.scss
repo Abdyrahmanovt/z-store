@@ -3,6 +3,13 @@
   position: relative;
   padding: 64px 0;
   background: #ECECEC;
+
+  &__img {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+  }
+
   &__card {
     width: 100%;
     height: 248px;

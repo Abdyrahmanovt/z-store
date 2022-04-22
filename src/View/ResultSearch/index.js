@@ -4,23 +4,22 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import {Link, useParams} from "react-router-dom";
 import './style.css'
 import axios from "axios";
-import result from './123.png'
 
 const ResultSeach = () => {
+    const params = useParams()
     const [resProduct, setResProduct] = useState([])
 
 
     useEffect(() => {
-        axios(`https://613fef235cb9280017a110a6.mockapi.io/products`)
+        axios(`https://613fef235cb9280017a110a6.mockapi.io/products/?title=${params.search}`)
             .then(({data}) => {
                 setResProduct(data)
             })
-
-    }, [])
+    }, [params.search])
 
     return (
         <div className='result'>
-             <div className="container">
+            <div className="container">
                 <h3 className="result__title">
                     Результаты поиска по запросу: Платье
                 </h3>
@@ -36,13 +35,15 @@ const ResultSeach = () => {
                                             slidesPerView={1}
                                             autoplay={true}
                                         >
-
-                                            <SwiperSlide>
-                                                <div className="card__img">
-                                                    <img src={result} className="card__img d-block" alt="..."/>
-                                                </div>
-                                            </SwiperSlide>
-
+                                            <div className="card__img">
+                                                {
+                                                    item?.image?.map(item =>
+                                                        <SwiperSlide>
+                                                            <img src={item} className="card__img d-block" alt="..."/>
+                                                        </SwiperSlide>
+                                                    )
+                                                }
+                                            </div>
                                         </Swiper>
                                         <div className='card__number'>
                                             <div className="card__rebate">

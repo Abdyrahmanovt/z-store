@@ -9,7 +9,6 @@ import {SwiperSlide} from "swiper/react";
 
 const CollectionPage = () => {
     const {id} = useParams()
-
     const [collectionsProduct, setCollectionsProduct] = useState([])
 
     useEffect(() => {
@@ -17,9 +16,7 @@ const CollectionPage = () => {
             .then(({data}) => {
                 setCollectionsProduct(data)
             })
-
     }, [])
-    console.log(collectionsProduct)
     return (
         <div className="container">
             <div className='collectingPage'>

@@ -6,6 +6,7 @@ import {Navigation, Pagination, Scrollbar, A11y,Autoplay} from 'swiper';
 import NewProducts from "../NewProducts";
 import Collecting from "../Collecting";
 import HitProduct from "../HitProduct";
+import Advantage from "../Advantage";
 
 const Home = () => {
 
@@ -29,7 +30,7 @@ const Home = () => {
                 <HitProduct/>
                 <NewProducts/>
                 <Collecting/>
-                {/*<Advantage/>*/}
+                <Advantage/>
             </div>
         </div>
     );
@@ -38,8 +39,5 @@ const Home = () => {
 export default Home;
 
 
-
-// onSwiper={(swiper) => console.log(swiper)}
-// onSlideChange={() => console.log('slide change')}>
 
 

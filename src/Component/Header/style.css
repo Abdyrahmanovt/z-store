@@ -1,7 +1,3 @@
-div {
-  margin: 0;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -26,10 +22,10 @@ div {
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;
-  color: #979797;
+  color: #000000;
   margin-right: 6px;
 }
-.nav .header-contact span {
+.nav .header-contact a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 17px;
@@ -53,7 +49,7 @@ div {
 .header .helper {
   position: fixed;
   top: 50%;
-  right: 8%;
+  right: 6%;
   z-index: 100;
   background: transparent;
   border: none;
@@ -61,12 +57,23 @@ div {
   flex-direction: column;
   justify-content: center;
 }
-.header .helper__up {
-  z-index: 100;
+.header .helper__message {
   background: transparent;
   border: none;
 }
-.header .helper__icon .helper__chat {
+.header .helper .helper__call_back {
+  display: flex;
+  margin-left: -138px;
+  align-items: center;
+}
+.header .helper .whatsapp {
+  margin: 0 6px;
+}
+.header .helper__phone {
+  margin-right: 6px;
+}
+.header .helper__up {
+  z-index: 100;
   background: transparent;
   border: none;
 }

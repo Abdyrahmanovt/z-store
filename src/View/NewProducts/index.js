@@ -13,7 +13,6 @@ const NewProducts = () => {
         axios(`https://613fef235cb9280017a110a6.mockapi.io/products`)
             .then(({data}) => {
                 setNewProduct(data)
-                console.log(data)
             })
 
     }, [])

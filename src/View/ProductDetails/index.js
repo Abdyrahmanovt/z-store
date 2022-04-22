@@ -1,12 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import './style.css'
 import SimilarProduct from "./SimilarProduct";
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import axios from "axios";
 
 const ProductDetails = () => {
     const params = useParams()
     const [clothes, setClothes] = useState({})
+    const [basket, setBasket] = useState([])
+    const [favorite, setFavorite] = useState([])
 
 
     useEffect(() => {
@@ -15,6 +17,40 @@ const ProductDetails = () => {
                 setClothes(data)
             })
     }, [])
+
+
+    useEffect(() => {
+        let card = JSON.parse(localStorage.getItem("card"))
+        card?.map((id) => {
+            if (id.id === clothes.id) {
+                setBasket(true)
+            }
+            let favorite = JSON.parse(localStorage.getItem("favorite"))
+            favorite?.map((id) => {
+                if (id.id === clothes.id) {
+                    setFavorite(true)
+                }
+            })
+        }, [basket, clothes, favorite])
+    }, [])
+
+    function basProd(clothes) {
+        let card = JSON.parse(localStorage.getItem("card"))
+        if (!card) {
+            card = [];
+            localStorage.setItem("card", JSON.stringify(card))
+        }
+        for (let i = 0; i < card.length; i++) {
+            if (card[i].id === clothes.id) {
+                setBasket(false);
+                return;
+            }
+        }
+        card.push(clothes);
+        setBasket(true);
+        localStorage.setItem("card", JSON.stringify(card));
+        return;
+    }
 
 
     return (
@@ -58,7 +94,7 @@ const ProductDetails = () => {
                                 </div>
                             </div>
                             <div className='details__btns'>
-                                <button type='button' className="details__btn-basket">
+                                <button type='button' className="details__btn-basket" onClick={() => basProd(clothes)}>
                                     <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -68,7 +104,12 @@ const ProductDetails = () => {
                                             d="M10.6433 0C8.17672 0 6.16992 2.00676 6.16992 4.47336V7.17816H7.73039V4.47336C7.73039 2.86711 9.03704 1.56047 10.6433 1.56047C12.2495 1.56047 13.5564 2.86711 13.5564 4.47336V7.17816H15.1166V4.47336C15.1167 2.00676 13.1099 0 10.6433 0Z"
                                             fill="white"/>
                                     </svg>
-                                    <span>Добавить в корзину</span>
+                                    <span>{
+                                        basket !== true ? (
+                                                "Добавить в корзину"
+                                            ) :
+                                            "Перейти в корзину"
+                                    }</span>
                                 </button>
                                 <button className="details__btn-favorites">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -85,16 +126,9 @@ const ProductDetails = () => {
                 <h2 className="details__heading">Похожие товары</h2>
                 <div className="row">
                     <div className="col-lg-3 col-md-4 col-sm-6">
-                        <SimilarProduct/>
-                    </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6">
-                        <SimilarProduct/>
-                    </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6">
-                        <SimilarProduct/>
-                    </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6">
-                        <SimilarProduct/>
+                        <Link to={`/productinfo/${params.id}`}>
+                            <SimilarProduct/>
+                        </Link>
                     </div>
                 </div>
             </div>

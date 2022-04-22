@@ -15,17 +15,7 @@ import ResultSeach from "./View/ResultSearch";
 import CollectionPage from "./View/CollectionPage";
 
 const App = () => {
-    // const [product, setProduct] = useState([])
-    //
-    //
-    // useEffect(() => {
-    //     axios(`https://613fef235cb9280017a110a6.mockapi.io/products`)
-    //         .then(({data}) => {
-    //             setProduct(data)
-    //             console.log(data)
-    //         })
-    // }, [])
-    return (
+        return (
         <div className="app">
             <Layout>
                 <div className="pages">

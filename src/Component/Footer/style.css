@@ -9,6 +9,15 @@
   margin: 0;
   padding-left: 0;
 }
+.footer__menu li a span {
+  color: #F8F8F8;
+}
+.footer__menu li svg {
+  margin-right: 7px;
+}
+.footer__menu li .gmail {
+  margin-left: 4px;
+}
 .footer__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
