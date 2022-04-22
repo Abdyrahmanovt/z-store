@@ -1,5 +1,8 @@
 .news {
   padding: 11px;
+  height: 80vh;
+  overflow-y: scroll;
+
 
   &__title {
     font-weight: 500;
@@ -16,7 +19,7 @@
     width: 100%;
     padding: 16px;
     display: flex;
-    margin-bottom:10px ;
+    margin-bottom: 10px;
 
   }
 
@@ -39,4 +42,9 @@
     line-height: 165%;
     color: #5B5B5B;
   }
+
+}
+
+.news::-webkit-scrollbar {
+  width: 0 !important
 }
