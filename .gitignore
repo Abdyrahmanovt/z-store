@@ -8,6 +8,15 @@
 # testing
 /coverage
 
+about.json
+advantage.json
+help.json
+offer.json
+collection.json
+prodjs.json
+products.json
+footer.json
+
 # production
 /build
 .idea
